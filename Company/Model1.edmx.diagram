@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2a62c4f90f2a48eab3a4f93f0586e5f6" Name="Diagram1">
+        <EntityTypeShape EntityType="CompanyModel.Customer" Width="1.5" PointX="3" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CompanyModel.Export_Permission" Width="1.5" PointX="5.25" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CompanyModel.Measure" Width="1.5" PointX="3" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CompanyModel.Product" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CompanyModel.Store" Width="1.5" PointX="3" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="CompanyModel.Supplys_Permission" Width="1.5" PointX="8.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CompanyModel.Transaction" Width="1.5" PointX="5.25" PointY="6.625" IsExpanded="true" />
+        <AssociationConnector Association="CompanyModel.FK_Export_Permission_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="CompanyModel.FK_Supplys_Permission_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="CompanyModel.FK_Export_Permission_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="CompanyModel.FK_Export_Permission_Store" ManuallyRouted="false" />
+        <AssociationConnector Association="CompanyModel.FK_Measures_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="CompanyModel.FK_Supplys_Permission_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="CompanyModel.FK_Transactions_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="CompanyModel.FK_Supplys_Permission_Store" ManuallyRouted="false" />
+        <AssociationConnector Association="CompanyModel.FK_Transactions_Store" ManuallyRouted="false" />
+        <AssociationConnector Association="CompanyModel.FK_Transactions_Store1" ManuallyRouted="false" />
+        <AssociationConnector Association="CompanyModel.Store_has_Product" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
